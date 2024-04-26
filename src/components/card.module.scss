@@ -1,0 +1,11 @@
+$icon-wrapper-size: 64px;
+
+.card_icon_wrapper {
+    height: $icon-wrapper-size;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: calc((-1/ 2) *$icon-wrapper-size)
+}
